@@ -1,0 +1,5 @@
+**/helm/charts
+**/helm/**/*.tgz
+**/.DS_Store
+
+DELETEME*
