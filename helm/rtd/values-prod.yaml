@@ -7,9 +7,7 @@ cert-mounter-blueprint:
     create: true
 
   kvCertificatesName:
-    - mock-certificate
-    - fake-cert
-    - dev01-rtd-internal-dev-cstar-pagopa-it
+    - prod01-rtd-internal-cstar-pagopa-it
 
   keyvault:
     name: "cstar-p-rtd-kv"
