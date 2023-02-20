@@ -1,0 +1,14 @@
+cert-mounter-blueprint:
+  namespace: "pnpg"
+  nameOverride: ""
+  fullnameOverride: ""
+
+  deployment:
+    create: true
+
+  kvCertificatesName:
+    - dev01-pnpg-internal-dev-selfcare-pagopa-it
+
+  keyvault:
+    name: "selc-d-pnpg-kv"
+    tenantId: "7788edaf-0346-4068-9d79-c868aed15b3d"
