@@ -1,5 +1,5 @@
 cert-mounter-blueprint:
-  namespace: "idpay"
+  namespace: "pnpg"
   nameOverride: ""
   fullnameOverride: ""
 
@@ -7,10 +7,8 @@ cert-mounter-blueprint:
     create: true
 
   kvCertificatesName:
-    - mock-certificate
-    - fake-cert
-    - dev01-idpay-internal-dev-cstar-pagopa-it
+    - dev01-pnpg-internal-dev-selfcare-pagopa-it
 
   keyvault:
-    name: "cstar-u-idpay-kv"
+    name: "selc-d-pnpg-kv"
     tenantId: "7788edaf-0346-4068-9d79-c868aed15b3d"

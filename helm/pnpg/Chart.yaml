@@ -1,10 +1,10 @@
 apiVersion: v2
-name: cert-mounter-example
-description: cert mounter for idpay
+name: selfcare-pnpg-cert-mounter
+description: cert mounter for pnpg
 type: application
 version: 1.0.0
 appVersion: 1.0.0
 dependencies:
 - name: cert-mounter-blueprint
-  version: 1.0.0
+  version: 1.0.4
   repository: "https://pagopa.github.io/aks-helm-cert-mounter-blueprint"
