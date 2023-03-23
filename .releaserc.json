@@ -1,16 +1,12 @@
 {
   "branches": ["main", "master"],
   "ci": false,
-  "tagFormat": "cert-mounter-blueprint-${version}",
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
       {
         "preset": "angular",
-        "releaseRules": [
-          { "type": "breaking", "release": "major" },
-          { "type": "major", "release": "major" }
-        ]
+        "releaseRules": [{ "type": "breaking", "release": "major" }]
       }
     ],
     "@semantic-release/release-notes-generator",
