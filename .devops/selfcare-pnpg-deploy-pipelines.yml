@@ -66,7 +66,7 @@ stages:
                     workingDirectory: '$(System.DefaultWorkingDirectory)/helm/selfcare/$(deployNamespace)'
                     targetType: 'inline'
                     script: |
-                      helm repo add pagopa-microservice https://pagopa.github.io/aks-microservice-chart-blueprint
+                      helm repo add cert-mounter-blueprint https://pagopa.github.io/aks-helm-cert-mounter-blueprint
                       helm dep build
                     failOnStderr: true
                 - task: HelmDeploy@0
