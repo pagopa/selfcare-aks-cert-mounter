@@ -1,0 +1,14 @@
+cert-mounter-blueprint:
+  namespace: "ar"
+  nameOverride: ""
+  fullnameOverride: ""
+
+  deployment:
+    create: true
+
+  kvCertificatesName:
+    - prod01-ar-internal-selfcare-pagopa-it
+
+  keyvault:
+    name: "selc-p-ar-kv"
+    tenantId: "7788edaf-0346-4068-9d79-c868aed15b3d"
