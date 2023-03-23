@@ -13,10 +13,6 @@ parameters:
       - DEV
       - UAT
       - PROD
-  - name: version
-    displayName: Version of the docker image
-    type: string
-    default: v1.0.0
 
 variables:
   vmImageNameDefault: "ubuntu-latest"
